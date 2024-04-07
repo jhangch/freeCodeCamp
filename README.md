@@ -14,8 +14,8 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 
 - Aplicación de fotos de gatos: [Cat Photo App](https://jhangch.github.io/freeCodeCamp/Practicas/CatPhotoApp)
 - Menú de cafetería: [Coffe Menu](https://jhangch.github.io/freeCodeCamp/Practicas/CoffeeMenu)
-- Dibujo de marcadores con CSS: [CSS Color Markers]()
-- Formulario de registro: [Registration Form]()
+- Dibujo de marcadores con CSS: [CSS Color Markers](https://jhangch.github.io/freeCodeCamp/Practicas/CSSColorMarkers)
+- Formulario de registro: [Registration Form](https://jhangch.github.io/freeCodeCamp/Practicas/RegistrationForm)
 
 #### 🏆 Proyecto
 
