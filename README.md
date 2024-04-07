@@ -26,7 +26,7 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 #### 🧩 Prácticas
 
 - Modelo de cajas: [Pintura de Rothko](https://jhangch.github.io/freeCodeCamp/Practicas/RothkoPainting)
-- Flexbox: [Photo Gallery]()
+- Flexbox: [Photo Gallery](https://jhangch.github.io/freeCodeCamp/Practicas/CSSFlexboxPhotoGallery)
 - Tipografía: [Nutrition Label]()
 - Accesibilidad: [HTML/CSS Quiz]()
 
