@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">Formulario</h1>
+        <p id="description">Gracias por tomarte el tiempo de ingresar tus datos</p>
+    </header>
+
+    <form method="POST" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Nombre y Apellido
+                <input id="name" class="data-info" type="text" required placeholder="Juan Sierra" />
+            </label>
+
+            <label for="email" id="email-label">Correo Electronico
+                <input id="email" class="data-info" type="email" required placeholder="example@gmail.com" />
+            </label>
+
+            <label for="number" id="number-label">Edad
+                <input id="number" class="data-info" type="number" required placeholder="18" min=14 max=101 />
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label for="dropdown">
+                <p>¿Qué opción describe mejor tu nivel actual?</p>
+                <select id="dropdown">
+                    <option value>(selecciona una)</option>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Semi-Senior">Semi-Senior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Ninguna">Ninguna de las anteriores</option>
+                </select>
+            </label>
+
+            <p>¿Recomendarías este formulario a otras personas?</p>
+
+            <div class="recomendacion">
+                <input id="si" name="recomendacion" type="radio" value="si" checked /> Si
+            </div>
+
+            <div class="recomendacion">
+                <input id="no" name="recomendacion" type="radio" value="no" /> No
+            </div>
+
+            <div class="recomendacion">
+                <input id="quizas" name="recomendacion" type="radio" value="quizas" /> Quizás
+            </div>
+
+            <p class="text-tech">¿Qué buscas aprender actualmente?</p>
+            <label for="html">
+                <input id="html" value="html" type="checkbox" /> HTML
+            </label>
+
+            <label for="css">
+                <input id="css" value="css" type="checkbox" /> CSS
+            </label>
+
+            <label for="javascript">
+                <input id="javascript" value="javascript" type="checkbox" /> JavaScript
+            </label>
+
+            <label for="frameworks">
+                <input id="frameworks" value="frameworks" type="checkbox" /> Frameworks Js
+            </label>
+
+            <label for="git-github">
+                <input id="git-github" value="git-github" type="checkbox" /> Git y GitHub
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <p>¿Tienes alguna sugerencia?</p>
+            <textarea id="comentario" name="comentario" rows="6" placeholder="Ingresa aquí tú sugerencia..."></textarea>
+        </fieldset>
+
+        <input id="submit" type="submit" value="Enviar formulario" />
+
+    </form>
+</body>
+
+</html>
