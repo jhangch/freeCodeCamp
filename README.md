@@ -38,7 +38,7 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 
 #### 🧩 Prácticas
 
-- Pseudo selectores/elementos: [Balance Sheet](https://jhangch.github.io/freeCodeCamp/Practicas/BalanceeSheet)
+- Pseudo selectores/elementos: [Balance Sheet](https://jhangch.github.io/freeCodeCamp/Practicas/BalanceSheet)
 - Posicionamiento de elemntos: [Cat Painting](https://jhangch.github.io/freeCodeCamp/Practicas/CatPainting)
 
 #### 🏆 Proyecto
