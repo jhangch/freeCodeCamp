@@ -1,4 +1,4 @@
-![Roadmap Frontend con freeCodeCamp](/assets/freeCodeCamp_logo.webp)
+![Roadmap Frontend con freeCodeCamp](./assets/freeCodeCamp_logo.webp)
 
 # freeCodeCamp
 
