@@ -32,14 +32,15 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 
 #### 🏆 Proyecto
 
-- Proyecto de certificación para el módulo 2 del curso: [Agatha Christie]()
+- Proyecto de certificación para el módulo 2 del curso: [Leonardo da Vinci](hhtps://jhangch.github.io/freeCodeCamp/Proyectos/TributePage)
 
 ### 📚 Módulo 3
 
 #### 🧩 Prácticas
 
 - Pseudo selectores/elementos: [Balance Sheet](https://jhangch.github.io/freeCodeCamp/Practicas/BalanceSheet)
-- Posicionamiento de elemntos: [Cat Painting](https://jhangch.github.io/freeCodeCamp/Practicas/CatPainting)
+- Posicionamiento de elementos: [Cat Painting](https://jhangch.github.io/freeCodeCamp/Practicas/CatPainting)
+- Diseño web adaptativo: [Piano](https://jhangch.github.io/freeCodeCamp/Practicas/Piano)
 
 #### 🏆 Proyecto
 
