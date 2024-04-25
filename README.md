@@ -32,7 +32,7 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 
 #### 🏆 Proyecto
 
-- Proyecto de certificación para el módulo 2 del curso: [Leonardo da Vinci](hhtps://jhangch.github.io/freeCodeCamp/Proyectos/TributePage)
+- Proyecto de certificación para el módulo 2 del curso: [Leonardo da Vinci](https://jhangch.github.io/freeCodeCamp/Proyectos/TributePage)
 
 ### 📚 Módulo 3
 
