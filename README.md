@@ -50,7 +50,7 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 
 #### 🧩 Prácticas
 
-- Variables CSS (Custom Properties): [Sky Line]()
+- Variables CSS (Custom Properties): [Sky Line](https://jhangch.github.io/freeCodeCamp/Practicas/SkyLine)
 - Grid CSS: [Magazine]()
 
 #### 🏆 Proyecto
