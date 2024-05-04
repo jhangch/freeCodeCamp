@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Documentación Técnica</title>
+  </head>
+
+  <body>
+    <div class="container"></div>
+    <nav id="navbar">
+      <header>JS Documentación</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introducción_a_JavaScript"
+            >Introducción a JavaScript</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Lo_que_ya_deberías_saber_para_continuar"
+            >Lo que ya deberías saber para continuar</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Variables_y_Tipos_de_Datos"
+            >Variables y Tipos de Datos</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Estructuras_de_Control"
+            >Estructuras de Control</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Funciones_y_Declaración_de_Función"
+            >Funciones y Declaración de Función</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Arrays_y_Objetos">Arrays y Objetos</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Eventos">Eventos</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introducción_a_JavaScript">
+        <header>Introducción a JavaScript</header>
+        <article>
+          <p>
+            JavaScript es un lenguaje de programación ampliamente utilizado en
+            el desarrollo web. Es conocido por su capacidad para crear
+            interactividad en las páginas web y es una herramienta fundamental
+            para cualquier desarrollador web.
+          </p>
+          <h3>Características principales</h3>
+          <ul class="subtt">
+            <li>
+              <strong> Lenguaje de programación del lado del cliente:</strong>
+              JavaScript se ejecuta en el navegador del usuario, lo que lo
+              convierte en un lenguaje de programación del lado del cliente.
+            </li>
+            <li>
+              <strong>Lenguaje de programación interpretado:</strong> No es
+              necesario compilar el código antes de ejecutarlo. El navegador
+              interpreta el código JavaScript directamente.
+            </li>
+            <li>
+              <strong>Orientado a objetos:</strong> JavaScript es un lenguaje
+              orientado a objetos, lo que significa que se basa en el concepto
+              de objetos y clases para organizar el código.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section
+        class="main-section"
+        id="Lo_que_ya_deberías_saber_para_continuar"
+      >
+        <header>Lo que ya deberías saber para continuar</header>
+        <article>
+          <p>
+            Para sacar el máximo provecho de esta documentación, se recomienda
+            tener los siguientes conocimientos básicos:
+          </p>
+          <ul class="subtt">
+            <li>
+              <strong>HTML:</strong> Conocimientos básicos de HTML, como
+              etiquetas, atributos y estructura de una página web.
+            </li>
+            <li>
+              <strong>CSS:</strong> Conocimientos básicos de CSS, como estilos,
+              selectores y diseño de páginas web.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Variables_y_Tipos_de_Datos">
+        <header>Variables y Tipos de Datos</header>
+        <article>
+          <h3>Variables</h3>
+          <p>
+            En JavaScript, las variables se utilizan para almacenar datos.
+            Pueden ser declaradas utilizando las palabras clave let, const y
+            var.
+          </p>
+          <pre>
+            <code>
+// Declaración de variables
+
+let nombre = "Juan";  
+const edad = 30;      
+var esMayor = true;   
+function a ()
+            </code>
+          </pre>
+          <h3>Tipos de Datos</h3>
+          <p>
+            JavaScript es un lenguaje de tipado dinámico, lo que significa que
+            las variables pueden contener diferentes tipos de datos, como
+            números, cadenas de texto, booleanos, arrays, objetos, etc.
+          </p>
+          <pre>
+            <code>
+// Ejemplos de diferentes tipos de datos
+
+let numero = 10;
+let texto = "Hola";
+let booleano = true;
+let arreglo = [1, 2, 3];
+let objeto = { nombre: "Juan", edad: 30 };
+            </code>
+          </pre>
+        </article>
+      </section>
+      <section class="main-section" id="Estructuras_de_Control">
+        <header>Estructuras de Control</header>
+        <article>
+          <p>
+            Las estructuras de control en JavaScript permiten controlar el flujo
+            de ejecución del programa. Esto incluye condicionales, bucles y
+            estructuras de control de flujo.
+          </p>
+          <h3>Condicionales</h3>
+          <pre>
+            <code>
+// Ejemplo de declaración if-else
+
+if (edad >= 18) {
+  console.log("Eres mayor de edad");
+} else {
+  console.log("Eres menor de edad");
+}
+            </code>
+          </pre>
+          <h3>Bucles</h3>
+          <pre>
+            <code>
+// Ejemplo de bucle for
+
+for (let i = 0; i < 5; i++) {
+  console.log("Iteración " + i);
+}
+            </code>
+          </pre>
+        </article>
+      </section>
+      <section class="main-section" id="Funciones_y_Declaración_de_Función">
+        <header>Funciones y Declaración de Función</header>
+        <article>
+          <p>
+            Las funciones son bloques de código reutilizables que realizan una
+            tarea específica.
+          </p>
+          <h3>Declaración de Funciones</h3>
+          <p>
+            Las funciones en JavaScript pueden ser declaradas de varias formas.
+            Aquí tienes un ejemplo de declaración de función:
+          </p>
+          <pre>
+            <code>
+// Declaración de una función
+
+function saludar(nombre) {
+  console.log("¡Hola, " + nombre + "!");
+}
+            </code>
+          </pre>
+          <h3>Parámetros</h3>
+          <p>
+            Las funciones pueden aceptar parámetros que se utilizan como
+            variables dentro de la función.
+          </p>
+          <pre>
+            <code>
+// Función que acepta parámetros
+
+function sumar(a, b) {
+  return a + b;
+}
+
+console.log(sumar(3, 5)); // Imprime: 8
+            </code>
+          </pre>
+          <h3>Retorno de Funciones</h3>
+          <p>
+            Las funciones pueden devolver un valor utilizando la palabra clave
+            return.
+          </p>
+          <pre>
+            <code>
+// Función que devuelve un valor
+
+function multiplicar(a, b) {
+  return a * b;
+}
+
+console.log(multiplicar(2, 4)); // Imprime: 8
+            </code>
+          </pre>
+        </article>
+      </section>
+      <section class="main-section" id="Arrays_y_Objetos">
+        <header>Arrays y Objetos</header>
+        <article>
+          <p>
+            Los objetos y arrays son estructuras de datos fundamentales en
+            JavaScript.
+          </p>
+          <h3>Objetos</h3>
+          <pre>
+            <code>
+// Ejemplo de array
+
+let colores = ["rojo", "verde", "azul"];
+            </code>
+          </pre>
+          <h3>Arrays</h3>
+          <pre>
+            <code>
+// Ejemplo de objeto
+
+let persona = {
+  nombre: "Carlos",
+  edad: 25,
+  ciudad: "Madrid"
+};
+            </code>
+          </pre>
+        </article>
+      </section>
+      <section class="main-section" id="Eventos">
+        <header>Eventos</header>
+        <article>
+          <p>
+            Los eventos son acciones que ocurren en el navegador, como hacer
+            clic en un botón o mover el mouse.
+          </p>
+          <pre>
+            <code>
+// Ejemplo de manejo de eventos
+
+document.getElementById("boton").addEventListener("click", function() {
+  console.log("¡El botón fue clickeado!");
+});
+            </code>
+          </pre>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

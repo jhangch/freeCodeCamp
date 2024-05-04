@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  color: cornflowerblue;
+  min-width: 290px;
+}
+
+.container {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 300px;
+  min-width: 290px;
+  border-right: solid;
+  border-color: rgb(155, 155, 155, 0.4);
+}
+
+#navbar header {
+  font-size: 2em;
+}
+
+header {
+  text-align: center;
+  font-size: 1.8em;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 10px;
+  color: cadetblue;
+  /* margin-top: 2rem; */
+}
+
+.subtt {
+  /* margin-top: 1rem; */
+  line-height: 2;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #3a3333;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+#main-doc header {
+  margin-top: 2rem;
+}
+
+section article {
+  color: #949494;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #293441c2;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+p,
+.subtt {
+  color: darkslategray;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
