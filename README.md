@@ -44,7 +44,7 @@ En este repositorio podrán encontrar todos los ejercicios y proyectos que he re
 
 #### 🏆 Proyecto
 
-- Proyecto de certificación para el módulo 3 del curso: [Documentación Técnica]()
+- Proyecto de certificación para el módulo 3 del curso: [Documentación Técnica](https://jhangch.github.io/freeCodeCamp/Proyectos/DocumentationPage)
 
 ### 📚 Módulo 4
 
